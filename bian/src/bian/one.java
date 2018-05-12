@@ -30,7 +30,7 @@ public class one {
 	  capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.1.1");
 	  capabilities.setCapability(MobileCapabilityType.PLATFORM, "Andriod");
 	  capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "3487e851");
-	  capabilities.setCapability(MobileCapabilityType.APP, path+"/apk/bl3.1.apk.apk");
+	  capabilities.setCapability(MobileCapabilityType.APP, path+"/apk/bl3.1.apk");
 	  capabilities.setCapability(MobileCapabilityType.NO_RESET, true);
 	  
 	  capabilities.setCapability("appPackage", "com.bianla.app");
